@@ -5,8 +5,20 @@
   }
   
   body {
-    background-color: #FFEDD5; /* hex: 0-F */
+    background-color: #2b004b; /* hex: 0-F */
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-image: url("Images/planofundo.png");
+    background-repeat: no-repeat;
+  }
+
+  #background{
+    background-color: #ffffff;
+    width: auto;
+    height: auto;
+    padding: 0px 15px;
+    margin: 15px 0px;
   }
   
   ul {
@@ -17,12 +29,12 @@
   h1, h2, h3, .price {
     font-family: 'Roboto Serif', serif;
     text-transform: uppercase;
-    color: #2D2C2A;
+    color: #6633CC;
   }
   
   /* HEADER */
   header {
-    padding: 32px 0;
+    padding:  32px 0 ;
     text-align: center;
   }
   
@@ -38,15 +50,15 @@
     line-height: 33px;
   }
   
-  header h1 span {
-    color: #995000;
+  img {
+    width: 300px;
   }
   
   header p {
     font-size: 14px;
     line-height: 16px;
   
-    color: rgba(0, 0, 0, 0.7);
+    color: #6633CC;
   }
   
   /* SECTION */
@@ -55,7 +67,7 @@
   }
   
   section h2 {
-    background-color: #FED7AA;
+    background-color: #00d463;
     padding: 8px 16px;
     text-align: center;
   
@@ -80,7 +92,7 @@
   }
   
   .details p {
-    color: rgba(0, 0, 0, 0.6);
+    color: #8e6bd3;
     font-size: 14px;
     line-height: 21px;
   }
